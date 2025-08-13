@@ -124,7 +124,6 @@ export default function AboutUs1() {
             >
               <BorderBeam
                 duration={8}
-                size={300}
                 className="via-primary/40 from-transparent to-transparent"
               />
 
@@ -149,7 +148,6 @@ export default function AboutUs1() {
             >
               <BorderBeam
                 duration={8}
-                size={300}
                 className="from-transparent via-blue-500/40 to-transparent"
                 reverse
               />

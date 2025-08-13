@@ -1,16 +1,13 @@
-import React from 'react';
 import { cn } from '@/lib/utils';
 
 interface BorderBeamProps {
   duration?: number;
-  size?: number;
   className?: string;
   reverse?: boolean;
 }
 
 export function BorderBeam({
   duration = 8,
-  size = 300,
   className,
   reverse = false,
 }: BorderBeamProps) {

@@ -14,7 +14,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 
 export default function LucyHero() {
   // Detect dark mode from ShadCN / Tailwind class
-  const [isDark, setIsDark] = useState(
+  const [isDark] = useState(
     document.documentElement.classList.contains('dark')
   );
 
